@@ -1,0 +1,42 @@
+	<header>
+		<span></span><h5>Jesen Skills</h5><span></span>
+   	</header>
+   	<div class="swiper-container list">
+		<div class="swiper-wrapper">
+			
+			<div class="swiper-slide bannerCont">
+				<div class="swiper-container banner">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/01.jpg" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/02.jpg" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/03.jpg" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/04.jpg" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/05.jpg" />
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<div class="swiper-slide item" ng-repeat=" i in list">
+				<div class="img"><img src="{{i.src}}" height="80%" width="85%"/></div>
+				<div class="content">
+					<h6>{{i.category}}</h6>
+					<h6>{{i.name}}</h6>
+					<h6>{{i.time}}</h6>
+					<h6>{{i.level}}</h6>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+   
+ 

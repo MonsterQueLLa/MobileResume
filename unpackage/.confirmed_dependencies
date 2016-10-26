@@ -1,0 +1,40 @@
+{
+	"index.html": {
+		"resources": [
+			"img/zj.jpg",
+			"js/swiper.animate.min.js",
+			"js/jquery-1.11.0.js",
+			"img/hetun.jpeg",
+			"img/freeyourself.png",
+			"css/animate.css",
+			"css/swiper.min.css",
+			"js/swiper.min.js",
+			"img/chuanfan.jpg",
+			"img/index.jpg",
+			"js/swiper-3.3.1.jquery.min.js",
+			"img/p2.gif",
+			"img/p1.jpg",
+			"img/p3.jpg",
+			"js/app.js",
+			"css/index.css",
+			"js/index.js",
+			"img/pp6.jpg",
+			"main.html"
+		],
+		"refer": [
+			"main.html"
+		]
+	},
+	"main.html": {
+		"resources": [
+			"js/main.js",
+			"css/iconfont/iconfont.css",
+			"css/main.css",
+			"css/iconfont01/iconfont.woff",
+			"js/angular-route.min.js",
+			"data/skill.json",
+			"css/iconfont01/iconfont.css",
+			"js/angular.min.js"
+		]
+	}
+}

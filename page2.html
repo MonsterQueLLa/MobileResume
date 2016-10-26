@@ -1,0 +1,21 @@
+	<header>
+		<a class="iconfont" href="javascript:history.go(-1);">&#xe632;</a><h5>Jesen Project</h5><span></span>
+   	</header>
+   	<div class="swiper-container proList">
+   		<div class="swiper-wrapper">
+   			<div class="swiper-slide item" ng-repeat=" i in list">
+   				<h6 class="head">{{i.name}}</h6>
+   				
+   				<div class="center">
+   					<div class="img"><img src="{{i.image}}" height="90rem" style="padding: 0 0.2rem;" /></div>
+   					<h6>职责: {{i.job}}</h6>
+   				</div>
+				
+				<div class="content">
+					<h6><p>{{i.detail}}</p></h6>
+					<h6>技术点: {{i.tech}}</h6>
+				</div>
+			</div>
+			
+   		</div>
+   	</div>
